@@ -1,5 +1,5 @@
 # FAÇA  O LAUNCHER DO SEU ROLEPLAY FACILMENTE 😎
-Você que está desenvolvendo um servidor roleplay e quer deixar-lo com uma cara mais profissional,  aqui está sua solução. Este launcher tem uma base feita em [Electron](https://www.electronjs.org/)  e para customiza-lo não é necessário ser um gênio da computação é ** hyper facilmente 👌 ** apenas usando HTML5, CSS e JavaScript.
+Você que está desenvolvendo um servidor roleplay e quer deixar-lo com uma cara mais profissional,  aqui está sua solução. Este launcher tem uma base feita em [Electron](https://www.electronjs.org/)  e para customiza-lo não é necessário ser um gênio da computação é **hiper facilmente 👌** apenas usando HTML5, CSS e JavaScript.
 
 ![Launcher Example](https://media3.giphy.com/media/fX2JC2TNXAYfJvTvad/giphy.gif "Launcher Example")
 
