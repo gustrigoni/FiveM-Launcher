@@ -20,6 +20,7 @@ Para testar suas alterações gerais do launcher use o comando `yarn start` no t
 ### Gerar arquivo executavel 😁 
 Então quer dizer que você terminou seu launcher?
 HMMM... é muito bom saber isso, para criar um instalador iremos ter que executar o seguinte comando `yarn make squirrel` no terminal do diretório (ex: ` C:\Users\TEUUSUARIO\Desktop\launchers\FiveM-Launcher`). 
+
 ![Launcher Example](https://media.giphy.com/media/jsed8tuRs4MZF9Pt9W/giphy.gif "Terminal Exmple")
 
 ###### depois de algum tempinho....
