@@ -1,0 +1,59 @@
+{
+  "name": "yourroleplayname",
+  "productName": "Your Roleplay",
+  "version": "1.0.0",
+  "description": "Made with love by Gustavo Rigoni",
+  "main": "src/index.js",
+  "build": {
+    "win": {
+      "icon": "src/img/yourLogo.ico"
+    }
+  },
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "electronPackagerConfig": {
+    "icon": "src/img/yourLogo.ico"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Gustavo Rigoni",
+    "email": "gustrigoni@gmail.com"
+  },
+  "license": "MIT",
+  "config": {
+    "forge": {
+      "packagerConfig": {
+        "icon": "src/img/yourLogo.ico"
+      },
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "ChinelaRoleplay",
+            "loadingGif": "src/img/loadSetup.gif",
+            "setupIcon": "src/img/yourLogo.ico"
+          }
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "@electron-forge/maker-wix": "^6.0.0-beta.50",
+    "electron-squirrel-startup": "^1.0.0",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "6.0.0-beta.50",
+    "@electron-forge/maker-deb": "6.0.0-beta.50",
+    "@electron-forge/maker-rpm": "6.0.0-beta.50",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.50",
+    "@electron-forge/maker-zip": "6.0.0-beta.50",
+    "electron": "^8.2.3"
+  }
+}

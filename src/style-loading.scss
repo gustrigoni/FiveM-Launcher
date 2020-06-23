@@ -1,0 +1,19 @@
+body {
+
+    background-color: #111;
+    overflow: hidden;
+
+    .carregamento {
+
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 150px;
+        color: #fb317d;
+
+    }
+
+}

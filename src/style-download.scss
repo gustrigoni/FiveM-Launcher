@@ -1,0 +1,51 @@
+body {
+
+    background-image: url('http://chinelarp.gamesphoenix.com.br/launcher/src/img/discordWallpaper.png');
+
+    .row {
+        
+        display: flex;
+        flex-flow: row-reverse;
+        margin-top: 28%;
+        margin-right: 40px;
+
+        .column {
+
+            display: flex;
+            flex-flow: column;
+            flex-wrap: wrap-reverse;
+
+            img {
+
+                margin-top: 10px;
+                width: min-content;
+
+            }
+
+            h5 {
+
+                text-align: end;
+                color: rgba(255,255,255,0.6);
+                font-family: 'Open Sans', sans-serif;
+
+                a {
+
+                    font-size: medium;
+                    text-decoration: none;
+                    color: #fb317d;
+
+                }
+
+                i[name=coracao] {
+
+                    color: #fb317d;
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

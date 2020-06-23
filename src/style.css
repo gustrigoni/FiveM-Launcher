@@ -1,0 +1,126 @@
+body {
+  color: #000;
+  height: 100%;
+  width: 100%;
+  user-select: none;
+  background-color: #111;
+}
+body .ct {
+  height: 100vh;
+  display: flex;
+}
+body .ct .horizontal-bar {
+  top: 0;
+  height: 25px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: row;
+}
+body .ct .horizontal-bar .icone {
+  margin-right: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+body .ct .horizontal-bar .icone a {
+  color: rgba(255, 255, 255, 0.6);
+}
+body .ct .horizontal-bar .icone a:hover {
+  opacity: 0.7;
+  text-shadow: 0px 0px 3px #000;
+}
+body .ct .vertical-bar {
+  height: 100%;
+  width: 45px;
+  background-color: #111;
+  border-right: 3px solid #222;
+  position: relative;
+}
+body .ct .vertical-bar .icones-centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  width: 45px;
+  height: 100%;
+}
+body .ct .vertical-bar .icones-centro .icone {
+  padding: 5px;
+  color: #14d2ff;
+  cursor: pointer;
+}
+body .ct .vertical-bar .icones-centro .icone a {
+  color: #14d2ff;
+}
+body .ct .vertical-bar .icones-centro .icone a:hover {
+  opacity: 0.7;
+  text-shadow: 0px 0px 3px #000;
+}
+body .ct .logo-container {
+  margin-top: 60px;
+  margin-right: 30px;
+  height: 200px;
+}
+body .ct .launcher-container {
+  display: flex;
+  flex-flow: column;
+  height: 100% !important;
+  width: 100%;
+}
+body .ct .launcher-container .titulo {
+  font-family: "Fredoka One", cursive;
+  font-size: 112px;
+  margin-left: 125px;
+  margin-top: 150px;
+  color: #14d2ff;
+  text-shadow: 0 0 10px #222;
+}
+body .ct .launcher-container .descricao {
+  margin-top: -30px;
+  margin-left: 125px;
+  text-shadow: 0 0 10px #333;
+  color: #FFF;
+}
+body .ct .botao-container-esquerda {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+body .ct .botao-container-esquerda a {
+  text-decoration: none;
+  color: #FFF;
+}
+body .ct .botao-container-direita {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+body .ct .botao-container-direita a {
+  text-decoration: none;
+  color: #FFF;
+}
+body .ct .botao-container-direita .botao-jogar {
+  color: #FFF;
+  background-color: #c43c6f;
+  padding: 20px;
+  width: 260px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  box-shadow: 0 0 5px #222;
+  border-radius: 3px;
+  cursor: pointer;
+}
+body .ct .botao-container-direita .botao-jogar:hover {
+  opacity: 0.95;
+  box-shadow: 0 0 7px #000;
+}
+
+/*# sourceMappingURL=style.css.map */

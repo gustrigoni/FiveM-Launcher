@@ -1,0 +1,111 @@
+<!doctype html>
+    <html lang="pt">
+        <head>
+            <title>GTA V Launcher</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no">
+            <meta name="author" content="Gustavo Rigoni">
+            <meta name="description" content="O melhor Roleplay de todos">
+            <meta name="keywords" content="launcher,rp,roleplay,gta5,gta 5,gta v,fivem">
+            <script src="https://kit.fontawesome.com/1607313442.js" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+            <link rel="stylesheet" href="style.css">
+            <script>window.$ = window.jQuery = require('jquery');</script>
+            <script defer src="main.js"></script>
+        </head>
+        <script>
+            $(document).ready(function(){
+                $(window).on('load', function() {
+                    $('#tela-carregamento').remove();
+                });
+            });
+        </script>
+        <div id="tela-carregamento" style="background-color:#111;font-size:150px;color:#c43c6f;width:100%;height:100%;display:flex;position:absolute;z-index:20;align-items:center;justify-content:center;">
+            <i class="fas fa-spin fa-circle-notch"></i>
+        </div>
+        <body>
+            <audio volume="0.1" controls autoplay loop hidden>
+                <source src="soundtrack.mp3" type="audio/ogg" hidden="true">
+                <embed src="soundtrack.mp3" autostart="true" loop="true" hidden="true"> 
+            </audio>
+            <div class="ct">
+                <div class="horizontal-bar">
+                    <div style="margin-top:-6px" class="icone">
+                        <a id="butaoMinimizar" title="Minimizar" target="_blank">
+                            <i class="far fa-window-minimize"></i>
+                        </a>
+                    </div>
+                    <div style="margin-left:10px;" class="icone">
+                        <a id="butaoMaximizar" title="Maximizar" target="_blank">
+                            <i class="far fa-window-maximize"></i>
+                        </a>
+                    </div>
+                    <div style="margin-left:10px;" class="icone">
+                        <a id="butaoFechar" title="Fechar" target="_blank">
+                            <i class="fas fa-times-circle"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="vertical-bar">
+                    <div class="icones-centro">
+                        <div class="icone">
+                            <a title="Facebook" href="https://facebook.com/gustrigoni" target="_blank">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </div>
+                        <div class="icone">
+                            <a title="Discord" href="https://discord.gg/yourDiscord" target="_blank">
+                                <i class="fab fa-discord"></i>
+                            </a>
+                        </div>
+                        <div class="icone">
+                            <a title="Instagram" href="https://www.instagram.com/gustrigoni" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="icone">
+                            <a title="Website" href="https://youroleplay.com/" target="_blank">
+                                <i class="fas fa-laptop-house"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="botao-container-esquerda">
+                    <a href="https://www.facebook.com/gust.rigoni" target="_blank">
+                        <img width="130" src="https://logos-download.com/wp-content/uploads/2016/05/GTA_5_logo.png">
+                    </a>
+                </div>
+                <div id="butaoJogar" class="botao-container-direita">
+                    <a>
+                        <div class="botao-jogar">
+                            Play Now
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <script src="js/easy_background.js"></script>
+            <script>
+
+                // Fivem IP
+                let RoleplayIP = "149.56.245.178:30120";
+
+                // slider obj
+                let slideObj = {
+                    slide: ["https://cdn.gtaboom.com/wp-content/uploads/2016/02/load.png", "https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700670341.jpg", "https://cdn.wallpapersafari.com/56/96/SrpuJD.jpg"],
+                    delay: [6000, 3000, 5000]
+                };
+
+                // slider
+                easy_background("body", slideObj);
+
+                // click
+                $('#butaoJogar').on('click', () => {
+
+                    window.location = `fivem://connect/${FiveMIP}`;
+
+                });
+
+            </script>
+        </body>
+    </html>
+</doctype>
